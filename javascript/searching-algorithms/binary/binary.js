@@ -1,4 +1,12 @@
 //O(log n)
+//accepts a sorted array and a value
+//create a start pointer at start of array, and a end pointer at end of array
+//while the left pointer comes before the right pointer
+    //create a middle pointer
+    //if you find the value wanted, return index
+    //if value is too small, move start pointer up
+    //if value is too big, move end pointer down
+//if value never found, return -1
 
 function binarySearch(arr, val) {
     let start = 0;
